@@ -7,3 +7,125 @@
   font-weight: bold, italic;
   line-height: 1em;
 }
+
+/*-- Main Structural Styling --*/
+body {
+  background: #f7f7f7;
+  color: #333333
+}
+
+header h1{
+  width: 100%;
+  max-width: 1500px;
+  margin: auto;
+  margin: 2em 0.5em 2em 0.5em;
+  text-align: center;
+}
+
+section, header h2, header p{
+  width: 100%;
+  max-width: 700px;
+  margin: auto;
+}
+
+/*-- Styling Typography --*/
+h1{
+  font-size: 3.8rem;
+  margin-bottom: 2rem;
+  margin-top: 1.5em;
+  color: #BB4F00;
+}
+
+header h2{
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  margin-top: 0;
+  color: #C49879;
+}
+
+header p{
+  font-size:1.09rem;
+}
+
+h2{
+  font-size: 2rem;
+  margin: 2em 0em 0.5em 0em;
+}
+
+h3{
+  font-size: 1.5rem;
+  color: #C49879;
+  margin: auto;
+  margin-top: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+h3 p {
+  text-align: left;
+  font-size: 0.75rem;
+  margin: 4em 0 3em 0;
+  font-style: italic;
+}
+
+p, blockquote {
+  margin-bottom: 1.5rem;
+  line-height: 1.4;
+}
+
+blockquote {
+  font-size: 1.3rem;
+  font-style: italic;
+  hanging-punctuation: first;
+  text-indent: -0.60rem;
+  color: #BB4F00;
+}
+
+/*-- Styling Links --*/
+a{
+  color:#BB4F00;
+  text-decoration:none;
+  font-weight: bold;
+}
+
+a:hover{
+  color: #C49879;
+  border-bottom: 1px dotted;
+  transition: all 0.5s ease-in-out;
+}
+
+/*-- Styling Nav --*/
+nav{
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: 0;
+  width: 100%;
+  background: #333333;
+  padding: 2em 0;
+  font-size: 1em;
+}
+
+nav ul{
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  line-height: 1.5em;
+}
+
+nav ul li{
+  display: inline;
+  margin: 20px;
+  color: #f7f7f7;
+
+}
+
+nav a {
+  color: #f7f7f7;
+  margin: 0;
+}
+
+nav a:hover{
+  border-bottom: none;
+  color: #BB4F00;
+  transition: all 0.5s ease-in-out;
+}
