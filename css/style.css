@@ -28,6 +28,25 @@ section, header h2, header p{
   margin: auto;
 }
 
+.dark{background: #BB4F00;
+  margin: auto;
+  padding: 1em 0;
+  border-radius: 20px;
+}
+.top {
+  text-align: center;
+}
+
+footer {
+  width: 80%;
+  margin: auto 0;
+}
+
+footer p {
+  color: #f7f7f7;
+  text-align: center;
+}
+
 /*-- Styling Typography --*/
 h1{
   font-size: 3.8rem;
