@@ -3,8 +3,6 @@
   padding: 0;
   margin: 0;
   font-size: 100%;
-  font-family: Classic Garmond, serif;
-  font-weight: bold, italic;
   line-height: 1em;
 }
 
@@ -12,6 +10,7 @@
 body {
   background: #f7f7f7;
   color: #333333
+  font-family: forma-djr-display; sans-serif;
 }
 
 header h1{
@@ -21,6 +20,7 @@ header h1{
   margin: 2em 0.5em 2em 0.5em;
   text-align: center;
   margin-bottom: 0.8em;
+  font-style: normal;
 }
 
 section{
@@ -43,6 +43,7 @@ section{
 footer {
   width: 50%;
   margin: auto 0;
+  font-family: baskerville-poster-pt; serif;
 }
 
 footer section{
@@ -71,6 +72,9 @@ header h2{
   margin-top: 0;
   color: #C49879;
   margin-left: 10rem;
+  font-family: baskerville-poster-pt; serif;
+  font-weight: bold;
+  font-size: 35;
 }
 
 header p{
@@ -83,6 +87,8 @@ header p{
 h2{
   font-size: 2rem;
   margin: 2em 0em 0.5em 0em;
+  font-family: baskerville-poster-pt; serif;
+  font-weight: bold;
 }
 
 h3{
@@ -91,6 +97,9 @@ h3{
   margin: auto;
   margin-top: 2.5rem;
   margin-bottom: 0.5rem;
+  font-family: baskerville-poster-pt; serif;
+  font-weight: bold;
+  font-size: 35;
 }
 
 h3 p {
@@ -111,6 +120,7 @@ blockquote {
   hanging-punctuation: first;
   text-indent: -0.60rem;
   color: #BB4F00;
+  font-family: baskerville-poster-pt; serif;
 }
 
 /*-- Styling Links --*/
