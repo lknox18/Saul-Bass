@@ -20,34 +20,44 @@ header h1{
   margin: auto;
   margin: 2em 0.5em 2em 0.5em;
   text-align: center;
+  margin-bottom: 0.8em;
 }
 
-section, header h2, header p{
+section{
   width: 100%;
   max-width: 700px;
   margin: auto;
 }
 
-.dark{background: #BB4F00;
+.dark{
+  background: #BB4F00;
   margin: auto;
   padding: 1em 0;
   border-radius: 20px;
+  text-align: center;
 }
 .top {
   text-align: center;
 }
 
 footer {
-  width: 80%;
+  width: 50%;
   margin: auto 0;
 }
 
-footer p {
+footer section{
   color: #f7f7f7;
-  text-align: center;
+  text-align: left;
 }
 
+hr{
+  margin: 1.5rem;
+  color: #648764;
+  width: 76rem;
+  margin-left: 8rem;
+}
 /*-- Styling Typography --*/
+
 h1{
   font-size: 3.8rem;
   margin-bottom: 2rem;
@@ -60,10 +70,14 @@ header h2{
   margin-bottom: 1rem;
   margin-top: 0;
   color: #C49879;
+  margin-left: 10rem;
 }
 
 header p{
   font-size:1.09rem;
+  margin-left: 10rem;
+  margin-right: 8rem;
+  text-align: center;
 }
 
 h2{
@@ -133,7 +147,7 @@ nav ul{
 
 nav ul li{
   display: inline;
-  margin: 20px;
+  margin: 10px;
   color: #f7f7f7;
 
 }
