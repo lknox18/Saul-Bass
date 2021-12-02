@@ -10,7 +10,7 @@
 body {
   background: #f7f7f7;
   color: #333333
-  font-family: forma-djr-display; sans-serif;
+  font-family: agenda; sans-serif;
 }
 
 header h1{
@@ -82,6 +82,7 @@ header p{
   margin-left: 10rem;
   margin-right: 8rem;
   text-align: center;
+  font-family: agenda; sans-serif;
 }
 
 h2{
@@ -107,6 +108,17 @@ h3 p {
   font-size: 0.75rem;
   margin: 4em 0 3em 0;
   font-style: italic;
+  font-family: agenda; sans-serif;
+}
+
+h4{
+  width: 100%;
+  max-width: 700px;
+  margin: auto;
+  font-family: baskerville-poster-pt; serif;
+  font-weight: bold;
+  font-size: 23;
+  margin-bottom: 1rem;
 }
 
 p, blockquote {
@@ -121,6 +133,10 @@ blockquote {
   text-indent: -0.60rem;
   color: #BB4F00;
   font-family: baskerville-poster-pt; serif;
+}
+
+p{
+  font-family: agenda; sans-serif;
 }
 
 /*-- Styling Links --*/
@@ -145,7 +161,7 @@ nav{
   width: 100%;
   background: #333333;
   padding: 2em 0;
-  font-size: 1em;
+  font-size: 0.9em;
 }
 
 nav ul{
