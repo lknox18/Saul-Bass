@@ -30,7 +30,7 @@ section{
 }
 
 .dark{
-  background: #BB4F00;
+  background: #333333;
   margin: auto;
   padding: 1em 0;
   border-radius: 20px;
@@ -63,7 +63,7 @@ h1{
   font-size: 3.8rem;
   margin-bottom: 2rem;
   margin-top: 1.5em;
-  color: #BB4F00;
+  color: #8B0000;
 }
 
 header h2{
@@ -111,6 +111,18 @@ h3 p {
   font-family: agenda; sans-serif;
 }
 
+footer h3{
+  font-size: 1.5rem;
+  color: #C49879;
+  margin: auto;
+  margin-top: 0.5rem;
+  margin-bottom: 2.5rem;
+  font-family: baskerville-poster-pt; serif;
+  font-weight: bold;
+  font-size: 35;
+  margin-left: 39rem;
+}
+
 h4{
   width: 100%;
   max-width: 700px;
@@ -119,6 +131,23 @@ h4{
   font-weight: bold;
   font-size: 23;
   margin-bottom: 1rem;
+}
+
+h5{
+  font-size: 1.1rem;
+  color: #8B0000;
+  font-family: baskerville-display-pt; serif;
+  font-style: normal;
+  margin-left: 0.60rem;
+}
+
+h6{
+  font-size: 1.3rem;
+  font-style: italic;
+  color: #8B0000;
+  font-family: baskerville-poster-pt; serif;
+  margin-bottom: 1.5rem;
+  line-height: 1.4;
 }
 
 p, blockquote {
@@ -131,7 +160,7 @@ blockquote {
   font-style: italic;
   hanging-punctuation: first;
   text-indent: -0.60rem;
-  color: #BB4F00;
+  color: #8B0000;
   font-family: baskerville-poster-pt; serif;
 }
 
@@ -141,17 +170,27 @@ p{
 
 /*-- Styling Links --*/
 a{
-  color:#BB4F00;
+  color:#8B0000;
   text-decoration:none;
   font-weight: bold;
 }
 
 a:hover{
-  color: #C49879;
   border-bottom: 1px dotted;
   transition: all 0.5s ease-in-out;
 }
 
+h4 a{
+  color:#C49879;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+h4 a:hover{
+  color: #8B0000;C49879
+  border-bottom: 1px dotted;
+  transition: all 0.5s ease-in-out;
+}
 /*-- Styling Nav --*/
 nav{
   position: fixed;
@@ -185,6 +224,6 @@ nav a {
 
 nav a:hover{
   border-bottom: none;
-  color: #BB4F00;
+  color: #C49879;
   transition: all 0.5s ease-in-out;
 }
