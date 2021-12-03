@@ -245,14 +245,15 @@ nav a:hover{
 
 .gridimage{
   display: grid;
-  grid-gap: 15px;
+  grid-gap: 20px;
   grid-template-columns: repeat(auto-fill, minmax(340px, 1fr))
 
 }
 img{
   display: block;
-  margin: 0.5em 0;
+  margin: 0.5em;
   padding: 0;
   max-width: 100%;
   border-radius: 10px;
+  background-image: 
 }
