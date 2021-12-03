@@ -245,7 +245,7 @@ nav a:hover{
 
 .gridimage{
   display: grid;
-  grid-gap: 10px;
+  grid-gap: 15px;
   grid-template-columns: repeat(auto-fill, minmax(340px, 1fr))
 
 }
