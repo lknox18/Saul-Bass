@@ -182,6 +182,7 @@ p{
   font-family: agenda; sans-serif;
 }
 
+
 /*-- Styling Links --*/
 a{
   color:#8B0000;
@@ -240,4 +241,18 @@ nav a:hover{
   border-bottom: none;
   color: #C49879;
   transition: all 0.5s ease-in-out;
+}
+
+.gridimage{
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr))
+
+}
+img{
+  display: block;
+  margin: 0.5em 0;
+  padding: 0;
+  max-width: 100%;
+  border-radius: 10px;
 }
