@@ -1,2 +1,2 @@
 # Saul-Bass
-[Website Essay](https://lknox18.github.io/Saul-Bass/code.html)
+[Website Essay](https://lknox18.github.io/Saul-Bass/index.html)
