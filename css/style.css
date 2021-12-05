@@ -13,7 +13,7 @@ body {
   font-family: agenda; sans-serif;
 }
 
-header h1 {
+header h1{
     width: 100%;
     max-width: 800px;
     margin: auto;
@@ -74,6 +74,14 @@ hr{
   color: #648764;
   width: 76rem;
   margin-left: 8rem;
+}
+
+.one{
+    background: #1B6665;
+    margin: auto;
+    padding: 1em 0;
+    border-radius: 10px;
+  }
 }
 /*-- Styling Typography --*/
 
@@ -157,7 +165,7 @@ h6{
   font-size: 1.3rem;
   font-style: italic;
   font-weight: normal;
-  color: #21807E;
+  color: #f7f7f7;
   font-family: baskerville-poster-pt; serif;
   margin-bottom: 1.5rem;
   line-height: 1.4em;
@@ -247,7 +255,8 @@ nav a:hover{
 .gridimage{
   display: inline-flex;
   grid-gap: 20px;
-  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr))
+  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  margin-top: 1em;
 }
 img{
   display:inline-flex;
@@ -256,6 +265,7 @@ img{
   border-radius: 10px;
   height: 10%;
   width: 40%;
+
 }
 
 #title {
