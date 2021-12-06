@@ -102,7 +102,13 @@ hr{
   padding: 1em 0;
 }
 
+.poster-left{
+  text-align: left;
+}
 
+.poster-right{
+
+}
 /*-- Styling Typography --*/
 
 h1{
