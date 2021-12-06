@@ -103,7 +103,12 @@ hr{
 }
 
 .poster-left{
-  display:flex;
+border-radius: 20px;
+display:inline-flex;
+padding: 0;
+max-width: 50%;
+height: 10%;
+width: 40%;
 
 }
 
