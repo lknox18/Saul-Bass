@@ -322,5 +322,14 @@ img{
   margin-left: -20em;
   float: left;
   padding-right: 10px;
-  width: 295px
+  width: 200px;
+  margin-top: 0.3em;
+}
+
+.vertigo{
+  margin-left: -20em;
+  float: right;
+  padding-right: 10px;
+  width: 200px;
+  margin-top: 0.3em;
 }
