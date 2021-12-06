@@ -310,6 +310,6 @@ img{
 .title-sequence{
   width: 100%;
   background-size: cover;
-  height: 400px;
   margin-bottom: 2em;
+  margin-left: 10rem;
 }
