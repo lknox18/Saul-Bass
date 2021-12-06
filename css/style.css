@@ -103,7 +103,8 @@ hr{
 }
 
 .poster-left{
-  text-align: left;
+  display:flex;
+
 }
 
 .poster-right{
