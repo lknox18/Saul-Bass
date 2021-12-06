@@ -317,3 +317,10 @@ img{
   margin-bottom: 2em;
   grid-gap: 0;
 }
+
+.shinning{
+  margin-left: -20em;
+  float: left;
+  padding-right: 10px;
+  width: 295px
+}
