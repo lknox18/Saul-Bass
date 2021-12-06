@@ -311,5 +311,6 @@ img{
   width: 100%;
   background-size: cover;
   margin-bottom: 2em;
-  margin-left: 10rem;
+  grid-gap: 0;
+
 }
