@@ -97,25 +97,24 @@ hr{
 
 }
 
-/*
 .four{
   background: #f0f9fa;
   margin: auto;
   padding: 1em 0;
-} */
+}
 
 .poster-left{
-  margin-left: -15em;
+  margin-left: -20em;
   float: left;
   padding-right: 10px;
-  width: 200px
+  width: 250px
 }
 
 .poster-right{
-  margin-right: -15em;
+  margin-right: -20em;
   float: right;
-  padding-left: 10px;
-  width: 200px
+  padding-right: 10px;
+  width: 250px
 }
 /*-- Styling Typography --*/
 h1{
@@ -302,7 +301,6 @@ img{
 
 #title {
   width: 100%;
-  background-color: black;
   background: url(../imgs/title-image.jpg);
   background-size: cover;
   height: 400px;
