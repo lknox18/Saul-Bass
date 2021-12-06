@@ -9,8 +9,7 @@
 /*-- Main Structural Styling --*/
 body {
   background: #f7f7f7;
-  color: #333333
-  font-family: agenda; sans-serif;
+  color: #000000;
 }
 
 header h1{
@@ -36,6 +35,7 @@ section{
   border-radius: 20px;
   text-align: center;
 }
+
 .top {
   text-align: center;
 }
@@ -80,9 +80,29 @@ hr{
     background: #1B6665;
     margin: auto;
     padding: 1em 0;
-    border-radius: 10px;
+
   }
+
+.two{
+  background: #1B6665;
+  padding: 1em 0;
+  width: 100%;
 }
+
+.three{
+  background: #B7D5D4;
+  margin: auto;
+  padding: 1em 0;
+
+}
+
+.four{
+  background: #E8FBFF;
+  margin: auto;
+  padding: 1em 0;
+}
+
+
 /*-- Styling Typography --*/
 
 h1{
@@ -193,7 +213,7 @@ p{
 /*-- Styling Links --*/
 a{
   color: #21807E;
-  text-decoration:none;
+  text-decoration: none;
   font-weight: bold;
 }
 
