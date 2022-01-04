@@ -311,6 +311,7 @@ img{
   background: url(../imgs/title-image.png);
   background-size: cover;
   height: 400px;
+  margin-bottom: 2em;
 }
 
 .title-sequence{
