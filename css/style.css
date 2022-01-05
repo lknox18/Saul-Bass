@@ -327,6 +327,7 @@ img{
   width: 100%;
   background-size: cover;
   margin-bottom: 2em;
+  padding-bottom: 5em; 
   grid-gap: 0;
 }
 
