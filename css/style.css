@@ -215,6 +215,7 @@ h7{
   color: #C49879;
   margin: auto;
   margin-top: 1.5rem;
+  margin-bottom: 2rem;
   font-family: baskerville-poster-pt; serif;
   font-weight: bold;
 }
@@ -327,7 +328,6 @@ img{
   width: 100%;
   background-size: cover;
   margin-bottom: 2em;
-  padding-bottom: 5em; 
   grid-gap: 0;
 }
 
